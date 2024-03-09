@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/63d3a9cd082645a78afdd06e8e1910d9/artifacts
+end_time: 1709955109718
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63d3a9cd082645a78afdd06e8e1910d9
+run_name: amazing-shrike-471
+run_uuid: 63d3a9cd082645a78afdd06e8e1910d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709955053800
+status: 3
+tags: []
+user_id: haddocksmack

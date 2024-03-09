@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1bc661cb71c74accbe6004be9071b5ec/artifacts
+end_time: 1709952502853
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bc661cb71c74accbe6004be9071b5ec
+run_name: nebulous-stoat-256
+run_uuid: 1bc661cb71c74accbe6004be9071b5ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709952382727
+status: 3
+tags: []
+user_id: haddocksmack

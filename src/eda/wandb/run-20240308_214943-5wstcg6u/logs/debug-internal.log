@@ -1,0 +1,352 @@
+2024-03-08 21:49:43,862 INFO    StreamThr :834426 [internal.py:wandb_internal():87] W&B internal server running at pid: 834426, started at: 2024-03-08 21:49:43.861777
+2024-03-08 21:49:43,862 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status
+2024-03-08 21:49:43,863 INFO    WriterThread:834426 [datastore.py:open_for_write():85] open: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/run-5wstcg6u.wandb
+2024-03-08 21:49:43,863 DEBUG   SenderThread:834426 [sender.py:send():334] send: header
+2024-03-08 21:49:43,870 DEBUG   SenderThread:834426 [sender.py:send():334] send: run
+2024-03-08 21:49:46,371 INFO    SenderThread:834426 [dir_watcher.py:__init__():216] watching files in: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files
+2024-03-08 21:49:46,371 INFO    SenderThread:834426 [sender.py:_start_run_threads():1065] run started: 5wstcg6u with start time 1709952583.861491
+2024-03-08 21:49:46,371 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: summary_record
+2024-03-08 21:49:46,371 INFO    SenderThread:834426 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-08 21:49:46,372 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: check_version
+2024-03-08 21:49:46,373 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: check_version
+2024-03-08 21:49:46,577 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: run_start
+2024-03-08 21:49:46,582 DEBUG   HandlerThread:834426 [system_info.py:__init__():31] System info init
+2024-03-08 21:49:46,582 DEBUG   HandlerThread:834426 [system_info.py:__init__():46] System info init done
+2024-03-08 21:49:46,582 INFO    HandlerThread:834426 [system_monitor.py:start():151] Starting system monitor
+2024-03-08 21:49:46,582 INFO    SystemMonitor:834426 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-03-08 21:49:46,582 INFO    HandlerThread:834426 [system_monitor.py:probe():172] Collecting system info
+2024-03-08 21:49:46,582 INFO    SystemMonitor:834426 [interfaces.py:start():168] Started cpu
+2024-03-08 21:49:46,582 INFO    SystemMonitor:834426 [interfaces.py:start():168] Started disk
+2024-03-08 21:49:46,583 INFO    SystemMonitor:834426 [interfaces.py:start():168] Started gpu
+2024-03-08 21:49:46,583 INFO    SystemMonitor:834426 [interfaces.py:start():168] Started memory
+2024-03-08 21:49:46,583 INFO    SystemMonitor:834426 [interfaces.py:start():168] Started network
+2024-03-08 21:49:46,591 DEBUG   HandlerThread:834426 [system_info.py:probe():195] Probing system
+2024-03-08 21:49:46,594 DEBUG   HandlerThread:834426 [system_info.py:_probe_git():180] Probing git
+2024-03-08 21:49:46,599 DEBUG   HandlerThread:834426 [system_info.py:_probe_git():188] Probing git done
+2024-03-08 21:49:46,599 DEBUG   HandlerThread:834426 [system_info.py:probe():241] Probing system done
+2024-03-08 21:49:46,599 DEBUG   HandlerThread:834426 [system_monitor.py:probe():181] {'os': 'Linux-6.0.12-76060006-generic-x86_64-with-glibc2.35', 'python': '3.9.15', 'heartbeatAt': '2024-03-09T02:49:46.591448', 'startedAt': '2024-03-09T02:49:43.858295', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'eda.ipynb', 'root': '/home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter', 'git': {'remote': 'https://github.com/haddocksmack/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': 'reed.corey@gmail.com', 'host': 'coreys-desktop', 'username': 'haddocksmack', 'executable': '/home/haddocksmack/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3337.77, 'min': 2200.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 3600.09, 'min': 2200.0, 'max': 3700.0}, {'current': 3494.43, 'min': 2200.0, 'max': 3700.0}, {'current': 4332.307, 'min': 2200.0, 'max': 3700.0}, {'current': 3471.393, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3084.049, 'min': 2200.0, 'max': 3700.0}, {'current': 3700.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3517.115, 'min': 2200.0, 'max': 3700.0}, {'current': 3709.433, 'min': 2200.0, 'max': 3700.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3700.0}, {'current': 3292.029, 'min': 2200.0, 'max': 3700.0}, {'current': 3702.13, 'min': 2200.0, 'max': 3700.0}], 'disk': {'total': 453.13574981689453, 'used': 32.892601013183594}, 'gpu': 'NVIDIA GeForce GTX 1650 SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 SUPER', 'memory_total': 4294967296}], 'memory': {'total': 31.288772583007812}}
+2024-03-08 21:49:46,599 INFO    HandlerThread:834426 [system_monitor.py:probe():182] Finished collecting system info
+2024-03-08 21:49:46,599 INFO    HandlerThread:834426 [system_monitor.py:probe():185] Publishing system info
+2024-03-08 21:49:46,599 DEBUG   HandlerThread:834426 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-03-08 21:49:46,600 DEBUG   HandlerThread:834426 [system_info.py:_save_pip():67] Saving pip packages done
+2024-03-08 21:49:46,600 DEBUG   HandlerThread:834426 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-03-08 21:49:47,372 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-summary.json
+2024-03-08 21:49:47,372 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/requirements.txt
+2024-03-08 21:49:47,372 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/conda-environment.yaml
+2024-03-08 21:49:48,957 DEBUG   HandlerThread:834426 [system_info.py:_save_conda():86] Saving conda packages done
+2024-03-08 21:49:48,957 DEBUG   HandlerThread:834426 [system_info.py:_save_code():89] Saving code
+2024-03-08 21:49:48,957 WARNING HandlerThread:834426 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2024-03-08 21:49:48,957 DEBUG   HandlerThread:834426 [system_info.py:_save_patches():127] Saving git patches
+2024-03-08 21:49:49,033 DEBUG   HandlerThread:834426 [system_info.py:_save_patches():169] Saving git patches done
+2024-03-08 21:49:49,033 INFO    HandlerThread:834426 [system_monitor.py:probe():187] Finished publishing system info
+2024-03-08 21:49:49,035 DEBUG   SenderThread:834426 [sender.py:send():334] send: files
+2024-03-08 21:49:49,035 INFO    SenderThread:834426 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-03-08 21:49:49,035 INFO    SenderThread:834426 [sender.py:_save_file():1319] saving file diff.patch with policy now
+2024-03-08 21:49:49,035 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:49:49,043 DEBUG   SenderThread:834426 [sender.py:send():334] send: telemetry
+2024-03-08 21:49:49,043 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-08 21:49:49,043 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: stop_status
+2024-03-08 21:49:49,372 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/conda-environment.yaml
+2024-03-08 21:49:49,373 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/diff.patch
+2024-03-08 21:49:49,373 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-metadata.json
+2024-03-08 21:49:49,547 INFO    Thread-16 :834426 [upload_job.py:push():143] Uploaded file /tmp/tmpe7tdc7hxwandb/iptrb26u-wandb-metadata.json
+2024-03-08 21:49:49,564 DEBUG   SenderThread:834426 [sender.py:send():334] send: use_artifact
+2024-03-08 21:49:49,624 INFO    Thread-17 :834426 [upload_job.py:push():143] Uploaded file /tmp/tmpe7tdc7hxwandb/xtvdxmnq-diff.patch
+2024-03-08 21:49:50,373 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:49:52,373 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:49:54,158 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:49:59,159 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:04,042 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:04,042 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:04,159 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:09,043 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:09,160 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:14,044 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:14,164 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:14,378 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/config.yaml
+2024-03-08 21:50:19,044 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:19,338 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:24,045 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:24,338 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:29,045 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:29,339 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:34,046 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:34,339 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:39,046 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:39,341 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:44,047 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:44,341 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:46,584 DEBUG   SystemMonitor:834426 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-03-08 21:50:46,584 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:50:49,048 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:49,585 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:54,048 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:54,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:50:59,049 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:50:59,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:04,049 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:04,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:09,050 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:09,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:14,050 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:14,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:16,585 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:51:19,051 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:20,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:24,051 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:25,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:29,052 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:30,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:34,052 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:35,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:39,053 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:40,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:44,053 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:45,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:46,585 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:51:49,054 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:51,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:54,054 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:51:56,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:51:59,055 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:01,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:04,055 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:06,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:09,056 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:11,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:14,057 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:16,586 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:52:17,586 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:19,057 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:22,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:24,058 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:27,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:29,058 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:32,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:34,059 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:37,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:39,060 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:42,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:44,060 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:46,586 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:52:48,587 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:49,061 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:53,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:54,061 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:52:58,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:52:59,062 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:03,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:04,063 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:08,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:09,064 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:13,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:14,064 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:16,587 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:53:19,065 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:19,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:24,065 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:24,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:29,066 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:29,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:34,067 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:34,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:39,067 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:39,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:44,068 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:44,591 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:46,587 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:53:49,068 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:50,588 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:54,069 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:53:55,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:53:59,070 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:00,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:04,070 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:05,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:09,071 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:10,591 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:14,071 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:15,592 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:16,588 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:54:19,072 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:21,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:24,072 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:26,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:29,073 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:31,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:34,074 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:36,591 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:39,074 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:41,591 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:44,075 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:46,588 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:54:47,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:49,075 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:51,444 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:54:53,425 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:54,076 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:54:58,425 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:54:59,076 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:03,426 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:04,077 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:06,448 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:09,077 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:09,160 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:14,078 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:14,161 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:16,589 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:55:18,451 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:19,079 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:19,589 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:24,079 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:24,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:29,080 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:29,590 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:34,080 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:34,734 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:36,455 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:39,081 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:39,930 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:40,456 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:44,081 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:44,641 DEBUG   SenderThread:834426 [sender.py:send():334] send: telemetry
+2024-03-08 21:55:44,678 DEBUG   SenderThread:834426 [sender.py:send():334] send: config
+2024-03-08 21:55:44,898 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: log_artifact
+2024-03-08 21:55:44,899 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: log_artifact
+2024-03-08 21:55:45,457 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/code/_session_history.ipynb
+2024-03-08 21:55:45,457 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_created():275] file/dir created: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/code
+2024-03-08 21:55:45,901 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-08 21:55:46,225 INFO    Thread-19 :834426 [upload_job.py:push():101] Uploaded file /home/haddocksmack/.local/share/wandb/artifacts/staging/tmp1ew8b9ex
+2024-03-08 21:55:46,350 INFO    Thread-20 :834426 [upload_job.py:push():101] Uploaded file /home/haddocksmack/.local/share/wandb/artifacts/staging/tmpxn0v7fl8
+2024-03-08 21:55:46,457 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:48,919 INFO    SenderThread:834426 [sender.py:send_request_log_artifact():1379] logged artifact source-nyc_airbnb-None - {'id': 'QXJ0aWZhY3Q6NzQ4MDM3NzU1', 'digest': '98aa92ec1b49651e6024d8b277a531b9', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzAxNDMwMA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzQ3OTc3NzMy', 'versionIndex': 0}}, 'version': 'latest'}
+2024-03-08 21:55:48,919 DEBUG   SenderThread:834426 [sender.py:send():334] send: exit
+2024-03-08 21:55:48,919 INFO    SenderThread:834426 [sender.py:send_exit():557] handling exit code: 0
+2024-03-08 21:55:48,919 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:48,920 INFO    SenderThread:834426 [sender.py:send_exit():559] handling runtime: 358
+2024-03-08 21:55:48,921 INFO    SenderThread:834426 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-08 21:55:48,921 INFO    SenderThread:834426 [sender.py:send_exit():565] send defer
+2024-03-08 21:55:48,921 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: poll_exit
+2024-03-08 21:55:48,921 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,921 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:55:48,921 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-08 21:55:48,922 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,922 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-03-08 21:55:48,922 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 1
+2024-03-08 21:55:48,922 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,922 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-08 21:55:48,922 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,922 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-03-08 21:55:48,922 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 2
+2024-03-08 21:55:48,922 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,922 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-08 21:55:48,922 INFO    HandlerThread:834426 [system_monitor.py:finish():161] Stopping system monitor
+2024-03-08 21:55:48,923 DEBUG   SystemMonitor:834426 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-03-08 21:55:48,923 DEBUG   SystemMonitor:834426 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-03-08 21:55:48,923 INFO    HandlerThread:834426 [interfaces.py:finish():175] Joined cpu
+2024-03-08 21:55:48,923 INFO    HandlerThread:834426 [interfaces.py:finish():175] Joined disk
+2024-03-08 21:55:48,948 INFO    HandlerThread:834426 [interfaces.py:finish():175] Joined gpu
+2024-03-08 21:55:48,948 INFO    HandlerThread:834426 [interfaces.py:finish():175] Joined memory
+2024-03-08 21:55:48,948 INFO    HandlerThread:834426 [interfaces.py:finish():175] Joined network
+2024-03-08 21:55:48,948 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,948 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-03-08 21:55:48,948 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 3
+2024-03-08 21:55:48,948 DEBUG   SenderThread:834426 [sender.py:send():334] send: stats
+2024-03-08 21:55:48,948 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,948 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-08 21:55:48,948 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,948 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-03-08 21:55:48,948 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 4
+2024-03-08 21:55:48,948 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,948 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-08 21:55:48,949 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 5
+2024-03-08 21:55:48,949 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,949 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-08 21:55:48,949 DEBUG   SenderThread:834426 [sender.py:send():334] send: summary
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-08 21:55:48,949 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 6
+2024-03-08 21:55:48,949 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:48,949 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-08 21:55:48,949 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:48,949 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-03-08 21:55:48,951 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: status_report
+2024-03-08 21:55:49,132 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 7
+2024-03-08 21:55:49,133 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:49,133 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-08 21:55:49,133 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:49,133 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-03-08 21:55:49,458 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-summary.json
+2024-03-08 21:55:49,458 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/config.yaml
+2024-03-08 21:55:49,678 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 8
+2024-03-08 21:55:49,678 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:49,678 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-08 21:55:49,678 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:49,678 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-03-08 21:55:49,678 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 9
+2024-03-08 21:55:49,678 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:49,678 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-08 21:55:49,679 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:49,679 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-03-08 21:55:49,679 INFO    SenderThread:834426 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-03-08 21:55:50,458 INFO    Thread-13 :834426 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:50,459 INFO    SenderThread:834426 [dir_watcher.py:finish():392] scan: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files
+2024-03-08 21:55:50,459 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/conda-environment.yaml conda-environment.yaml
+2024-03-08 21:55:50,459 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/diff.patch diff.patch
+2024-03-08 21:55:50,461 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/requirements.txt requirements.txt
+2024-03-08 21:55:50,461 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/config.yaml config.yaml
+2024-03-08 21:55:50,462 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-metadata.json wandb-metadata.json
+2024-03-08 21:55:50,463 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log output.log
+2024-03-08 21:55:50,463 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-summary.json wandb-summary.json
+2024-03-08 21:55:50,468 INFO    SenderThread:834426 [dir_watcher.py:finish():406] scan save: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/code/_session_history.ipynb code/_session_history.ipynb
+2024-03-08 21:55:50,468 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 10
+2024-03-08 21:55:50,470 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:50,470 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-08 21:55:50,470 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:50,470 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-03-08 21:55:50,470 INFO    SenderThread:834426 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-08 21:55:50,902 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-08 21:55:50,942 INFO    Thread-26 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/code/_session_history.ipynb
+2024-03-08 21:55:50,993 INFO    Thread-24 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/output.log
+2024-03-08 21:55:50,995 INFO    Thread-23 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/config.yaml
+2024-03-08 21:55:50,996 INFO    Thread-25 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/wandb-summary.json
+2024-03-08 21:55:50,996 INFO    Thread-22 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/requirements.txt
+2024-03-08 21:55:51,026 INFO    Thread-21 :834426 [upload_job.py:push():143] Uploaded file /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/files/conda-environment.yaml
+2024-03-08 21:55:51,226 INFO    Thread-12 :834426 [sender.py:transition_state():585] send defer: 11
+2024-03-08 21:55:51,226 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:51,226 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-08 21:55:51,226 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:51,227 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-03-08 21:55:51,227 INFO    SenderThread:834426 [file_pusher.py:join():165] waiting for file pusher
+2024-03-08 21:55:51,227 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 12
+2024-03-08 21:55:51,227 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:51,227 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-08 21:55:51,227 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:51,227 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-03-08 21:55:51,442 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 13
+2024-03-08 21:55:51,443 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:51,443 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-08 21:55:51,443 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:51,443 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-03-08 21:55:51,443 INFO    SenderThread:834426 [sender.py:transition_state():585] send defer: 14
+2024-03-08 21:55:51,443 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: defer
+2024-03-08 21:55:51,443 DEBUG   SenderThread:834426 [sender.py:send():334] send: final
+2024-03-08 21:55:51,443 INFO    HandlerThread:834426 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-08 21:55:51,443 DEBUG   SenderThread:834426 [sender.py:send():334] send: footer
+2024-03-08 21:55:51,443 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: defer
+2024-03-08 21:55:51,443 INFO    SenderThread:834426 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-03-08 21:55:51,444 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-08 21:55:51,444 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: server_info
+2024-03-08 21:55:51,444 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-08 21:55:51,444 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-08 21:55:51,444 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: poll_exit
+2024-03-08 21:55:51,445 DEBUG   SenderThread:834426 [sender.py:send_request():361] send_request: server_info
+2024-03-08 21:55:51,593 DEBUG   HandlerThread:834426 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-08 21:55:51,594 INFO    HandlerThread:834426 [handler.py:finish():841] shutting down handler
+2024-03-08 21:55:52,444 INFO    WriterThread:834426 [datastore.py:close():299] close: /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20240308_214943-5wstcg6u/run-5wstcg6u.wandb
+2024-03-08 21:55:52,593 INFO    SenderThread:834426 [sender.py:finish():1491] shutting down sender
+2024-03-08 21:55:52,593 INFO    SenderThread:834426 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-08 21:55:52,593 INFO    SenderThread:834426 [file_pusher.py:join():165] waiting for file pusher

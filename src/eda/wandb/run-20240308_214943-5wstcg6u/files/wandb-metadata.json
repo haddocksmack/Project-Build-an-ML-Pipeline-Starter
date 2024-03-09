@@ -1,0 +1,104 @@
+{
+    "os": "Linux-6.0.12-76060006-generic-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-03-09T02:49:46.591448",
+    "startedAt": "2024-03-09T02:49:43.858295",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "eda.ipynb",
+    "root": "/home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "https://github.com/haddocksmack/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98"
+    },
+    "email": "reed.corey@gmail.com",
+    "host": "coreys-desktop",
+    "username": "haddocksmack",
+    "executable": "/home/haddocksmack/anaconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3337.77,
+        "min": 2200.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.09,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3494.43,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 4332.307,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3471.393,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3084.049,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3700.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3517.115,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3709.433,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2200.0,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3292.029,
+            "min": 2200.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3702.13,
+            "min": 2200.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "total": 453.13574981689453,
+        "used": 32.892601013183594
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 SUPER",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.288772583007812
+    }
+}
