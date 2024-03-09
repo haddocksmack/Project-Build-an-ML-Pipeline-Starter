@@ -1,0 +1,40 @@
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Configure stats pid to 855645
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from /home/haddocksmack/.config/wandb/settings
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-03-09 10:24:32,802 WARNING MainThread:855645 [wandb_setup.py:_flush():68] Could not save program above cwd: /home/haddocksmack/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/home/haddocksmack/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest'}
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_init.py:_log_setup():478] Logging user logs to /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240309_102432-wlfj4vo5/logs/debug.log
+2024-03-09 10:24:32,802 INFO    MainThread:855645 [wandb_init.py:_log_setup():479] Logging internal logs to /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240309_102432-wlfj4vo5/logs/debug-internal.log
+2024-03-09 10:24:32,803 INFO    MainThread:855645 [wandb_init.py:init():518] calling init triggers
+2024-03-09 10:24:32,803 INFO    MainThread:855645 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-03-09 10:24:32,803 INFO    MainThread:855645 [wandb_init.py:init():571] starting backend
+2024-03-09 10:24:32,803 INFO    MainThread:855645 [wandb_init.py:init():575] setting up manager
+2024-03-09 10:24:32,804 INFO    MainThread:855645 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-09 10:24:32,805 INFO    MainThread:855645 [wandb_init.py:init():582] backend started and connected
+2024-03-09 10:24:32,806 INFO    MainThread:855645 [wandb_init.py:init():670] updated telemetry
+2024-03-09 10:24:32,811 INFO    MainThread:855645 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2024-03-09 10:24:34,894 INFO    MainThread:855645 [wandb_init.py:init():748] run resumed
+2024-03-09 10:24:34,897 INFO    MainThread:855645 [wandb_run.py:_on_init():2121] communicating current version
+2024-03-09 10:24:35,050 INFO    MainThread:855645 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-09 10:24:35,050 INFO    MainThread:855645 [wandb_init.py:init():758] starting run threads in backend
+2024-03-09 10:24:35,071 INFO    MainThread:855645 [wandb_run.py:_console_start():2101] atexit reg
+2024-03-09 10:24:35,071 INFO    MainThread:855645 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2024-03-09 10:24:35,071 INFO    MainThread:855645 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2024-03-09 10:24:35,071 INFO    MainThread:855645 [wandb_run.py:_redirect():2046] Redirects installed.
+2024-03-09 10:24:35,072 INFO    MainThread:855645 [wandb_init.py:init():798] run started, returning control to user process
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Configure stats pid to 855645
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from /home/haddocksmack/.config/wandb/settings
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/settings
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'run_group': 'development', 'project': 'nyc_airbnb'}
+2024-03-09 10:24:37,317 WARNING MainThread:855645 [wandb_setup.py:_flush():68] Could not save program above cwd: /home/haddocksmack/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': None, 'program': '/home/haddocksmack/anaconda3/envs/mlflow-af6473294b18f57ea960125076520147a7a4be59/bin/pytest'}
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_init.py:_log_setup():478] Logging user logs to /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240309_102437-wlfj4vo5/logs/debug.log
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_init.py:_log_setup():479] Logging internal logs to /home/haddocksmack/Documents/WGU/D501 - ML DevOps/Project-Build-an-ML-Pipeline-Starter/src/data_check/wandb/run-20240309_102437-wlfj4vo5/logs/debug-internal.log
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_init.py:init():518] calling init triggers
+2024-03-09 10:24:37,317 INFO    MainThread:855645 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2024-03-09 10:24:37,318 INFO    MainThread:855645 [wandb_init.py:init():566] wandb.init() called when a run is still active
+2024-03-09 10:24:44,898 WARNING MsgRouterThr:855645 [router.py:message_loop():77] message_loop has been closed
