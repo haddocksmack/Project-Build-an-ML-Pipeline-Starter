@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8f51caba792f4b3ea96e78bbbf33ebd4/artifacts
+end_time: 1710008256146
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f51caba792f4b3ea96e78bbbf33ebd4
+run_name: gifted-ape-787
+run_uuid: 8f51caba792f4b3ea96e78bbbf33ebd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710008254624
+status: 4
+tags: []
+user_id: haddocksmack

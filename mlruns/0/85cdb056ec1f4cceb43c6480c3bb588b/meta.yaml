@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/85cdb056ec1f4cceb43c6480c3bb588b/artifacts
+end_time: 1710008339589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85cdb056ec1f4cceb43c6480c3bb588b
+run_name: sedate-trout-368
+run_uuid: 85cdb056ec1f4cceb43c6480c3bb588b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710008338043
+status: 4
+tags: []
+user_id: haddocksmack
