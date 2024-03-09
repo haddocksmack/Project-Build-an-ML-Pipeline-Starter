@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b89ea3c2e8ac426d9764e76397199d5e/artifacts
+end_time: 1710009394540
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b89ea3c2e8ac426d9764e76397199d5e
+run_name: hilarious-snail-738
+run_uuid: b89ea3c2e8ac426d9764e76397199d5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009373574
+status: 3
+tags: []
+user_id: haddocksmack

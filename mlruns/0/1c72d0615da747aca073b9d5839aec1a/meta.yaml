@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1c72d0615da747aca073b9d5839aec1a/artifacts
+end_time: 1710009426681
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1c72d0615da747aca073b9d5839aec1a
+run_name: welcoming-yak-535
+run_uuid: 1c72d0615da747aca073b9d5839aec1a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009417544
+status: 4
+tags: []
+user_id: haddocksmack

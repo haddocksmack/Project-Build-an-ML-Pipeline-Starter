@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a872ae8d2bca4a7d81c3a78d20030d38/artifacts
+end_time: 1710009624269
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a872ae8d2bca4a7d81c3a78d20030d38
+run_name: zealous-conch-126
+run_uuid: a872ae8d2bca4a7d81c3a78d20030d38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009615645
+status: 3
+tags: []
+user_id: haddocksmack

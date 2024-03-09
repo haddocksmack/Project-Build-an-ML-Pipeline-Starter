@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/31423330c7b14d72ae7a306423a8864e/artifacts
+end_time: 1710009633542
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31423330c7b14d72ae7a306423a8864e
+run_name: salty-panda-950
+run_uuid: 31423330c7b14d72ae7a306423a8864e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009598079
+status: 4
+tags: []
+user_id: haddocksmack

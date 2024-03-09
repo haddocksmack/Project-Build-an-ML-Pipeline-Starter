@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d6aa3a87822247d58c4e0bb6e52af6e4/artifacts
+end_time: 1710009426832
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6aa3a87822247d58c4e0bb6e52af6e4
+run_name: illustrious-bat-395
+run_uuid: d6aa3a87822247d58c4e0bb6e52af6e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009370486
+status: 4
+tags: []
+user_id: haddocksmack

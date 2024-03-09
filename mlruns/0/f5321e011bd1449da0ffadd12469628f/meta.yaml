@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f5321e011bd1449da0ffadd12469628f/artifacts
+end_time: 1710009633390
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5321e011bd1449da0ffadd12469628f
+run_name: rare-crow-731
+run_uuid: f5321e011bd1449da0ffadd12469628f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710009624281
+status: 4
+tags: []
+user_id: haddocksmack
