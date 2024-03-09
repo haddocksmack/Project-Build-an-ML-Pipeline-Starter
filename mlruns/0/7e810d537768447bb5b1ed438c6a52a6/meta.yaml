@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7e810d537768447bb5b1ed438c6a52a6/artifacts
+end_time: 1709999144071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e810d537768447bb5b1ed438c6a52a6
+run_name: burly-eel-535
+run_uuid: 7e810d537768447bb5b1ed438c6a52a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709999057356
+status: 3
+tags: []
+user_id: haddocksmack

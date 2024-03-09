@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/150cf167a941473f8c89baf0063a793f/artifacts
+end_time: 1709999143971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 150cf167a941473f8c89baf0063a793f
+run_name: amazing-zebra-149
+run_uuid: 150cf167a941473f8c89baf0063a793f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1709999064117
+status: 3
+tags: []
+user_id: haddocksmack
