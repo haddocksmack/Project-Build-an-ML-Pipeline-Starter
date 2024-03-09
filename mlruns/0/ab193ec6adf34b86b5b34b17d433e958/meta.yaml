@@ -1,0 +1,15 @@
+artifact_uri: file:///home/haddocksmack/Documents/WGU/D501%20-%20ML%20DevOps/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ab193ec6adf34b86b5b34b17d433e958/artifacts
+end_time: 1710006700889
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab193ec6adf34b86b5b34b17d433e958
+run_name: monumental-moose-249
+run_uuid: ab193ec6adf34b86b5b34b17d433e958
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710006404844
+status: 3
+tags: []
+user_id: haddocksmack
